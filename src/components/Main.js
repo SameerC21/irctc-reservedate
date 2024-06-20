@@ -17,16 +17,16 @@ function Main() {
             {/* <h2>IRCTC TICKET DATE CALCULATOR</h2> */}
             <div className= "today-reservation">
             <h3>Today you can book tickets for journey till <span id="date"><Today /></span></h3>
-            <p>Book tickets at <a href= "http://www.irctc.co.in/"  target='_blank' rel="noreferrer">IRCTC</a>, Ticket date CALCULATOR.</p>
             <p>General reservation counter is open at 8:00am</p>
             <p>The above date is calculated assuming the train starts from the starting station on the same day</p>
             <p>The date on which the particular train starts from the starting station should be mentioned as Date of Journey</p>
             </div>
             <form>
-            <label>Enter the DATE of Journey:
-            <DateCalc />
-            </label>
+              <label>Enter the DATE of Journey:
+                <DateCalc />
+              </label>
             </form>
+            <p>Book tickets at <a href= "http://www.irctc.co.in/"  target='_blank' rel="noreferrer">IRCTC</a> and Enjoy the journey.</p>
         </div>
         </div>
         <p className='publish'>Copyright ©2024</p>

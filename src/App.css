@@ -49,6 +49,8 @@ h2.react-datepicker__current-month {
 .irctc-date .content a{
   color: #ffd400;
   font-weight: 600;
+  position: relative;
+  text-decoration: underline;
 }
 .content .today-reservation h3{
   font-size: 30px;
