@@ -1,0 +1,23 @@
+header{
+    background-color: #000000;
+    color: #e1f0ff;
+}
+
+.d-flex {
+    display: flex;
+}
+
+header a{
+    margin: 0 0;
+    padding: 10px 10px;
+    font-size: 21px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media (max-width:  767px) {
+    header a{
+        font-size: 15px;
+        padding: 5px 5px;
+    }
+}
