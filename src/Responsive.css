@@ -1,0 +1,16 @@
+@media (max-width: 767px) {
+  .react-datepicker-wrapper {
+    width: 100%;
+  }
+  .irctc-date .content {
+    width: 90%;;
+  }
+  .react-datepicker-wrapper input {
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  .irctc-date .content h2 {
+    font-size: 25px ;
+  }
+}
