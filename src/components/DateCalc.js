@@ -48,4 +48,4 @@ function DateCalc() {
 }
 
 
-export default DateCalc
+export default DateCalc;
