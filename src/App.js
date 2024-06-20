@@ -29,7 +29,7 @@ function App() {
           </form>
         </div>
       </div>
-      <p className='publish'>Developed By Sameer Chalke. &#128516;</p>
+      {/* <p className='publish'>Developed By Sameer Chalke. &#128516;</p> */}
     </section>
   );
 }

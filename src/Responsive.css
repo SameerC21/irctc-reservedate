@@ -13,4 +13,8 @@
   .irctc-date .content h2 {
     font-size: 25px ;
   }
+
+  .content .today-reservation h3{
+    font-size: 20px ;
+  }
 }

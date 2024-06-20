@@ -35,12 +35,16 @@ h1,h2,h3,h4,h5,h6,a,p{
   width: 70%;
   margin: auto;
   text-align: center;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   padding: 10px 10px 50px 10px;
   border: 1px solid #000;
 }
 .irctc-date .content h2 {
   font-size: 50px ;
+  margin-top: 0px;
+}
+h2.react-datepicker__current-month {
+  font-size: 14px !important;
 }
 .irctc-date .content a{
   color: #ffd400;
