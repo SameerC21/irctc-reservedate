@@ -86,3 +86,22 @@ h2.react-datepicker__current-month {
   margin: auto;
   background: #3e464e;
 }
+
+.train-input {
+  height: 40px;
+  display: block;
+  max-width: 300px;
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin: 10px auto 0 10px;
+  font-size: 16px;
+  padding: 0 5px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
