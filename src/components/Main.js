@@ -3,8 +3,8 @@ import '../App.css'
 import '../Responsive.css';
 import DateCalc from './DateCalc';
 import Today from './Today';
-import TrainName from './TrainName/trainName';
-import PnrStatus from './PnrStatus/pnrStatus';
+// import TrainName from './TrainName/trainName';
+// import PnrStatus from './PnrStatus/pnrStatus';
 import banner from '../assets/banner-1.jpg'
 
 
