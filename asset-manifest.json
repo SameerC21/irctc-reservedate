@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/irctc-reservedate/static/css/main.616c0627.css",
-    "main.js": "/irctc-reservedate/static/js/main.802f5fe9.js",
+    "main.css": "/irctc-reservedate/static/css/main.8f8b3c9b.css",
+    "main.js": "/irctc-reservedate/static/js/main.10644612.js",
     "static/js/453.277fe123.chunk.js": "/irctc-reservedate/static/js/453.277fe123.chunk.js",
     "static/media/banner-1.jpg": "/irctc-reservedate/static/media/banner-1.d708344f28ec99d8ebce.jpg",
     "index.html": "/irctc-reservedate/index.html",
-    "main.616c0627.css.map": "/irctc-reservedate/static/css/main.616c0627.css.map",
-    "main.802f5fe9.js.map": "/irctc-reservedate/static/js/main.802f5fe9.js.map",
+    "main.8f8b3c9b.css.map": "/irctc-reservedate/static/css/main.8f8b3c9b.css.map",
+    "main.10644612.js.map": "/irctc-reservedate/static/js/main.10644612.js.map",
     "453.277fe123.chunk.js.map": "/irctc-reservedate/static/js/453.277fe123.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.616c0627.css",
-    "static/js/main.802f5fe9.js"
+    "static/css/main.8f8b3c9b.css",
+    "static/js/main.10644612.js"
   ]
 }
