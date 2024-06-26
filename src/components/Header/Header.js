@@ -8,7 +8,7 @@ function Header() {
   return (
     <header>
         <div className='d-flex'>
-            <h2>IRCTC Booking Ticket Date</h2>
+            <h2>Indian Rail Wizard</h2>
             {/* <Link to = "#">IRCTC Date Calculator</Link> */}
         </div>
     </header>
