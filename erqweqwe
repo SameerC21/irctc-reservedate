@@ -1,0 +1,61 @@
+[1mdiff --git a/src/components/Main.js b/src/components/Main.js[m
+[1mindex 30ea6a0..b383606 100644[m
+[1m--- a/src/components/Main.js[m
+[1m+++ b/src/components/Main.js[m
+[36m@@ -4,31 +4,11 @@[m [mimport '../App.css'[m
+ import '../Responsive.css';[m
+ import DateCalc from './DateCalc';[m
+ import Today from './Today';[m
+[31m-// import TrainName from './TrainName/trainName';[m
+[31m-// import PnrStatus from './PnrStatus/pnrStatus';[m
+ import banner from '../assets/banner-1.jpg'[m
+ [m
+ [m
+ function Main() {[m
+ [m
+[31m-  // const [trainNumber, setTrainNumber] = useState('');[m
+[31m-  // const [trainDetails, setTrainDetails] = useState(null);[m
+[31m-[m
+[31m-  // const handleInputChange = (event) => {[m
+[31m-  //   setTrainNumber(event.target.value);[m
+[31m-  // };[m
+[31m-[m
+[31m-  // const fetchTrainDetails = () => {[m
+[31m-  //   // Replace with your actual API endpoint[m
+[31m-  //   fetch(`https://api.example.com/trains/${trainNumber}`)[m
+[31m-  //     .then(response => response.json())[m
+[31m-  //     .then(data => setTrainDetails(data))[m
+[31m-  //     .catch(error => {[m
+[31m-  //       console.error('Error fetching train data:', error);[m
+[31m-  //       setTrainDetails(null);[m
+[31m-  //     });[m
+[31m-  // };[m
+[31m-[m
+   return ([m
+     <section className='mainpage'>[m
+     <div className='banner'>[m
+[36m@@ -49,23 +29,7 @@[m [mfunction Main() {[m
+                 </label>[m
+             </form>[m
+             <p>Book tickets at <a href="http://www.irctc.co.in/" target='_blank' rel="noreferrer">IRCTC</a> and Enjoy the journey.</p>[m
+[31m-    [m
+[31m-            {/* <PnrStatus /> */}[m
+[31m-[m
+[31m-            {/* <div>[m
+[31m-              <h1>Train Information</h1>[m
+[31m-              <input[m
+[31m-                type="text"[m
+[31m-                value={trainNumber}[m
+[31m-                onChange={handleInputChange}[m
+[31m-                placeholder="Enter train number"[m
+[31m-                className='train-input'[m
+[31m-                max-length={5}[m
+[31m-              />[m
+[31m-              <button onClick={fetchTrainDetails}>Get Train Details</button>[m
+[31m-              [m
+[31m-              <TrainName train={trainDetails} />[m
+[31m-            </div> */}[m
+[32m+[m[41m  [m
+         </div>[m
+     </div>[m
+     <p className='publish'>Copyright ©2024</p>[m

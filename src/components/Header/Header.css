@@ -15,6 +15,34 @@ header h2{
     cursor: pointer;
 }
 
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav ul li{
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+
+nav ul li:hover::after {
+    content: "";
+    position: absolute;
+    background-color: #e1f0ff;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: -5px;
+
+    transition: 0.3s ease-in-out;
+}
+
 @media (max-width:  767px) {
     header a{
         font-size: 15px;
