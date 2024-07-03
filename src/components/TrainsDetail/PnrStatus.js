@@ -12,7 +12,7 @@ const PnrStatus = () => {
 
   return (
     <div>
-      <h2>Get Train Details</h2>
+      <h2>Get PNR Details</h2>
       <input
         type="text"
         value={PnrNo}
